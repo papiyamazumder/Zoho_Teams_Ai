@@ -3,7 +3,7 @@ main.py — FastAPI Backend for Zoho Projects Assistant
 ------------------------------------------------------
 This file is the backend server. It:
   1. Handles OAuth2 authentication with Zoho
-  2. Exposes REST API endpoints that the Streamlit UI calls
+  2. Exposes REST API endpoints that the UI calls
   3. Proxies requests to the Zoho Projects REST API using stored tokens
 
 Run with: uvicorn main:app --reload --port 8000
